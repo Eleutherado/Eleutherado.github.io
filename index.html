@@ -1,1 +1,84 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrapped Portfolio</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="bootstrap/css/style.css" />
+    <script type="text/javascript" src="bootstrap/js/jquery-3.2.0.slim.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://dummyimage.com/100x100&text=CUTE" alt="" />
+            </div>
+            <div class="col-md-6 text-right">
+                <h1 class="text-uppercase name-font">Jane Doette</h1>
+                <h3>Front-end Ninja</h3>
+            </div>
+        </div>
+        <div class="color-in">
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive concept-img" src="https://dummyimage.com/1140x350&text=CONCEPT" alt="" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-brown">
+                    <h2>Featured Work</h2>
+                </div>
+            </div>
+            <div class="row text-brown text-center proj-img">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="https://dummyimage.com/550x300&text=Cool 1" alt="appify"
+                        data-toggle="modal" data-target="#proj1"/>
+                    <h3>APPIFY</h3>
+                    <a href="#">Project link</a>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive" src="https://dummyimage.com/555x300&text=Dank 2" alt="sunflower"
+                    data-toggle="modal" data-target="#proj2"/>
+                    <h3>SUNFLOWER</h3>
+                    <a href="#">Project link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 1 -->
+    <div class="modal fade" id="proj1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://dummyimage.com/550x300&text=Cool 1">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal fade" id="proj2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://dummyimage.com/550x300&text=Dank 2">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
